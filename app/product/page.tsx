@@ -9,7 +9,7 @@ import Image from "next/image";
 import Car from "@/images/car.svg";
 import Shop from "@/images/shop.svg";
 import Time from "@/images/time.svg";
-import { UserOutlined } from "@ant-design/icons";
+import { UserOutlined } from "@ant-design/icons"; 
 import Banner3 from '@/images/banner3.png'
 import Swiper from '../../components/swiper/page'
 
@@ -118,7 +118,7 @@ function Product() {
                 <div className="flex items-center gap-[16px]">
                   <Image src={Shop} alt="Car Logo" />
                   <p className="text-[18px] font-medium text-[#240E00CC]">
-                    Do’kondi o’zidan olib ketishingiz mumkin
+                    Do'konni o'zidan olib ketishingiz mumkin
                   </p>
                 </div>
                 <div className="flex items-center gap-[16px]">
@@ -174,7 +174,7 @@ function Product() {
                   </div>
                   <div className="flex justify-between border-b-[3px] border-dashed pb-[11px] pt-[9px]">
                     <p className="w-[200px] text-[18px] font-medium text-[#240E00CC]">
-                      CIM kartalar soni
+                      SIM kartalar soni
                     </p>
                     <p className="w-[300px] text-[18px] font-medium text-[#240E00CC]">
                       2
@@ -244,7 +244,7 @@ function Product() {
                         <Avatar className="w-[130px] h-[80px]" src="https://api.dicebear.com/7.x/miniavs/svg?seed=1" />
                     </Tooltip>
                     <div className="w-[70%}">
-                      <h4 className="font-bold text-[24px] mb-[10px]">Azamxon Axmedov</h4>
+                      <h4 className="font-bold text-[24px] mb-[10px]">Rahmatullayev Behr</h4>
                       <p className="font-medium text-[#240E00CC] text-[16px]">Супер!! Спасибо продавцу, все пришло аккуратно. Телефон крутой не жалею о покупке. Советую тем, кому нужен хороший экран, оптимизация и тд!!!! Цвет темно синий, а на свету хамелеон</p>
                     </div>
                   </div>
